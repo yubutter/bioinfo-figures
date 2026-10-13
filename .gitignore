@@ -1,0 +1,11 @@
+# 本地渲染的示例图不进仓库（用 examples/render_examples.R 随时重画）
+examples/out/
+*.Rhistory
+.RData
+# 不要把任何项目数据放进本 skill
+*.qs
+*.rds
+*.h5ad
+*.h5
+# 本机专用的包库设置（每台机器自己写，见 README）
+local_libpaths.R
